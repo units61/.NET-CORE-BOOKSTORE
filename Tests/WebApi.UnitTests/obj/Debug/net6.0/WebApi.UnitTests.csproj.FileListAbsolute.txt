@@ -129,3 +129,10 @@ C:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\obj\Debug\net
 C:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\obj\Debug\net6.0\WebApi.UnitTests.pdb
 C:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\obj\Debug\net6.0\WebApi.UnitTests.genruntimeconfig.cache
 C:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\obj\Debug\net6.0\ref\WebApi.UnitTests.dll
+c:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\gokha\Desktop\Pratikler2\BookStore\Tests\WebApi.UnitTests\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

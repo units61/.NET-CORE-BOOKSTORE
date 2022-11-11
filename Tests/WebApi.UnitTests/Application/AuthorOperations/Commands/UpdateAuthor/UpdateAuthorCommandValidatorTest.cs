@@ -7,7 +7,7 @@ using WebApi.DBOperations;
 using WebApi.Entities;
 
 
-namespace Application.AuthorOperations.Commands.AuthorBook
+namespace Application.AuthorOperations.Commands.UpdateAuthor
 {
     public class UpdateAuthorCommandValidatorTest : IClassFixture<CommonTestFixture>
     {

@@ -6,24 +6,25 @@ using WebApi.BookOperations.CreateBook;
 using WebApi.BookOperations.DeleteBook;
 using WebApi.DBOperations;
 using WebApi.Entities;
+using WebApi.UserOperations.DeleteUser;
 using static WebApi.BookOperations.CreateBook.CreateBookCommand;
 
-namespace Application.AuthorOperations.Commands.DeleteAuthor
+namespace Application.UserOperations.Commands.DeleteUser
 {
-    public class DeleteAuthorCommandValidatorTests : IClassFixture<CommonTestFixture>
+    public class DeleteUserCommandValidatorTests : IClassFixture<CommonTestFixture>
     {
        
         [Theory]
         [InlineData(0)]
         [InlineData(-1)]
-        public void WhenInvalidAuthorIdIsGiven_Validator_ShouldBeReturnErrors(int authorid)
+        public void WhenInvalidUserIdIsGiven_Validator_ShouldBeReturnErrors(int userid)
         {
             //arrange
-            DeleteAuthorCommand command = new DeleteAuthorCommand(null!);
-            command.AuthorId = authorid;
+            DeleteUserCommand command = new DeleteUserCommand(null!);
+            command.UserId = userid;
             
             //act
-            DeleteAuthorCommandValidator validator = new DeleteAuthorCommandValidator();
+            DeleteUserCommandValidator validator = new DeleteUserCommandValidator();
             var result = validator.Validate(command);
 
             //assert
@@ -34,12 +35,12 @@ namespace Application.AuthorOperations.Commands.DeleteAuthor
         [Theory]
         [InlineData(200)]
         [InlineData(2)]
-        public void WhenInvalidBookIdisGiven_Validator_ShouldNotBeReturnError(int authorid)
+        public void WhenInvalidUserIdisGiven_Validator_ShouldNotBeReturnError(int userid)
         {
-            DeleteAuthorCommand command = new DeleteAuthorCommand(null!);
-            command.AuthorId = authorid;
+            DeleteUserCommand command = new DeleteUserCommand(null!);
+            command.UserId = userid;
 
-            DeleteAuthorCommandValidator validator = new DeleteAuthorCommandValidator();
+            DeleteUserCommandValidator validator = new DeleteUserCommandValidator();
             var result = validator.Validate(command);
 
             result.Errors.Count.Should().Be(0);
